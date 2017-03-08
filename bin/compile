@@ -1,3 +1,4 @@
 #!/bin/sh
 # Usage: bin/compile <build-dir> <cache-dir> <env-dir>
+chmod +x "$1"/bin/compile
 exec "$1"/bin/compile "$@"
