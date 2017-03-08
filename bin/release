@@ -1,3 +1,4 @@
 #!/bin/sh
 # Usage: bin/release <build-dir>
+chmod +x "$1"/bin/release
 exec "$1"/bin/release "$@"
